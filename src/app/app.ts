@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { HeadersComponent } from './header/header.component';
+import { UserInputComponent } from './user-input/user-input.component';
 
 @Component({
   selector: 'app-root',
-  imports: [HeadersComponent],
+  imports: [HeadersComponent, UserInputComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
