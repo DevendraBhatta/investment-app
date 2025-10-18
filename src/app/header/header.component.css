@@ -2,14 +2,11 @@ header{
     text-align: center;
     margin: 3 rem auto;
 }
-
-
 header img{
-    width: 5 rem;
-    height: 5 rem;
+    width: 5rem;
+    height: 5rem;
     object-fit: contain;
     background-color: transparent;
-
 }
 
 header h1{
